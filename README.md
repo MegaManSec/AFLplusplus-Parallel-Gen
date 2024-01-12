@@ -1,5 +1,6 @@
 # AFLplusplus-Parallel-Gen
 
+No idea what this is? Read [this post about what this is for](https://joshua.hu/aflplusplus-generate-fuzzing-campaign-commands-options-secondary-fuzzers).
 The `generate.py` script generates commands necessary to run AFL++ using the multi-core options recommended in [the AFL++ documentation](https://aflplus.plus/docs/fuzzing_in_depth/#c-using-multiple-cores) which is based on probabilities / percentages of each fuzzer using each option. The probabilities are as follows:
 
 1. Use AFL_DISABLE_TRIM=1 to 65% of fuzzers,
